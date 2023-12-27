@@ -1,16 +1,64 @@
 body {
 
 background-color: black;
-
+background-image: url(images/cobraback.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
-         
- .box
- {
-   color: brown;
-   text-align: center;
-      height: 200px;
-   width: 300px;
-   
+.mic {
+   color:red;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 40px;
+ }
+ .logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+ }
+     .classnamehere {
+         padding: 40px; 
+         color: white;
+    }
+    .uppercase {
+     text-transform: uppercase;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: yellowgreen;
+    }   
+.box
+{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: greenyellow;
+   font-size: 50px;
+}
+.navbar
+{
+   color: aqua;
+display: flex;
+padding: 10px;
+text-align: center;
+font-size: 30px;
 }
 
 
+.homed{
+   a{
+color: greenyellow;
+   }
+  text-decoration:none ;
+padding-left: 150px;
+}
+.eventsd
+{
+  a{
+   color: greenyellow;
+  }
+padding-left:  250px;
+}
+.profiled
+{
+   a{
+      color: greenyellow;
+   }
+
+padding-left: 350px;
+}

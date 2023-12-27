@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Esports Team Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      /* padding-top: 300px; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      
+       background-image: url("images/cobrakai1.jpg"); 
+      
+    }
+    form {
+       background-color: antiquewhite;
+      padding: 50px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      /* display: grid; */
+      
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+      width: 600px;
+      padding: 20px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 25px;
+     
+    }
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    /* .hahha{
+        display: flex;
+        width: 600px;
+    } */
+    
+  </style>
+</head>
+<body>
+
+  <form action="/register-team" method="post">
+    <h2>Esports Team Registration</h2>
+    <!-- <div class="hahha"> -->
+    <label for="teamName">Team Name:</label><br>
+    <input type="text" id="teamName" name="teamName" required><br>
+<!-- </div> -->
+    <h3>Player 1</h3>
+    <label for="player1Name">Player Name:</label><br>
+    <input type="text" id="player1Name" name="player1Name" required><br>
+    <label for="player1Email">Player Email:</label><br>
+    <input type="email" id="player1Email" name="player1Email" required><br>
+    <label for="player1Age">Player Age:</label><br>
+    <input type="number" id="player1Age" name="player1Age" required><br><br>
+    <label for="player1BgmiId">Player 1 BGMI ID:</label><br>
+    <input type="text" id="player1BgmiId" name="player1BgmiId" required><br><br>
+    
+    <h3>Player 2</h3>
+    <label for="player2Name">Player Name:</label><br>
+    <input type="text" id="player2Name" name="player2Name" required><br>
+    <label for="player2Email">Player Email:</label><br>
+    <input type="email" id="player2Email" name="player2Email" required><br>
+    <label for="player2Age">Player Age:</label><br>
+    <input type="number" id="player2Age" name="player2Age" required><br><br>
+    <label for="player2BgmiId">Player 2 BGMI ID:</label><br>
+    <input type="text" id="player2BgmiId" name="player2BgmiId" required><br><br>
+    
+    <h3>Player 3</h3>
+    <label for="player3Name">Player Name:</label><br>
+    <input type="text" id="player3Name" name="player3Name" required><br>
+    <label for="player3Email">Player Email:</label><br>
+    <input type="email" id="player3Email" name="player3Email" required><br>
+    <label for="player3Age">Player Age:</label><br>
+    <input type="number" id="player3Age" name="player3Age" required><br><br>
+    <label for="player3BgmiId">Player 3 BGMI ID:</label><br>
+    <input type="text" id="player3BgmiId" name="player3BgmiId" required><br><br>
+    
+    <h3>Player 4</h3>
+    <label for="player4Name">Player Name:</label><br>
+    <input type="text" id="player4Name" name="player4Name" required><br>
+    <label for="player4Email">Player Email:</label><br>
+    <input type="email" id="player4Email" name="player4Email" required><br>
+    <label for="player4Age">Player Age:</label><br>
+    <input type="number" id="player4Age" name="player4Age" required><br><br>
+    <label for="player4BgmiId">Player 3 BGMI ID:</label><br>
+    <input type="text" id="player4BgmiId" name="player4BgmiId" required><br><br>
+    
+    <input type="submit" value="Register Team" onclick={openhome}>
+  </form>
+
+</body>
+</html>
+
+</body>
+</html>
